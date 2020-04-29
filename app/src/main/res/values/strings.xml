@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">assignment</string>
+
+    <string name="retry">Retry</string>
+    <string name="post_error">An error occurred while loading the posts</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="accepted">member Accepted</string>
+    <string name="decline">Member decline</string>
+    <string name="server_error">Internet Connection is Lost !!</string>
+</resources>
