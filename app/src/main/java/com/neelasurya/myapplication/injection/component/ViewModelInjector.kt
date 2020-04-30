@@ -2,7 +2,7 @@ package com.neelasurya.myapplication.injection.component
 
 import dagger.Component
 import com.neelasurya.myapplication.injection.module.NetworkModule
-import com.neelasurya.myapplication.ui.post.PostListViewModel
+import com.neelasurya.myapplication.post.PostListViewModel
 import com.neelasurya.myapplication.post.PostViewModel
 import javax.inject.Singleton
 

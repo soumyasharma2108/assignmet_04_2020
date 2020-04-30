@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import com.neelasurya.myapplication.injection.component.DaggerViewModelInjector
 import com.neelasurya.myapplication.injection.component.ViewModelInjector
 import com.neelasurya.myapplication.injection.module.NetworkModule
-import com.neelasurya.myapplication.ui.post.PostListViewModel
+import com.neelasurya.myapplication.post.PostListViewModel
 import com.neelasurya.myapplication.post.PostViewModel
 
 

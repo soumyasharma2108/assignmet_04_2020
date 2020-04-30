@@ -1,4 +1,4 @@
-package com.neelasurya.myapplication.ui.post
+package com.neelasurya.myapplication.post
 
 import android.view.View
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,6 @@ import com.neelasurya.myapplication.base.BaseViewModel
 import com.neelasurya.myapplication.model.PostDao
 import com.neelasurya.myapplication.model.Results
 import com.neelasurya.myapplication.network.PostApi
-import com.neelasurya.myapplication.post.PostListAdapter
 import com.neelasurya.myapplication.utils.MAX_RESULTS
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers

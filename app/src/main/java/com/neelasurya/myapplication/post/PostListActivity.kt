@@ -11,6 +11,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.neelasurya.myapplication.R
 import com.neelasurya.myapplication.databinding.ActivityPostListBinding
 import com.neelasurya.myapplication.injection.ViewModelFactory
+import com.neelasurya.myapplication.post.PostListViewModel
 
 
 class PostListActivity: AppCompatActivity() {

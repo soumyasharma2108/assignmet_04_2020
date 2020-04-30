@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room.databaseBuilder
 import com.neelasurya.myapplication.model.database.AppDatabase
-import com.neelasurya.myapplication.ui.post.PostListViewModel
+import com.neelasurya.myapplication.post.PostListViewModel
 
 class ViewModelFactory(private val activity: AppCompatActivity): ViewModelProvider.Factory{
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {

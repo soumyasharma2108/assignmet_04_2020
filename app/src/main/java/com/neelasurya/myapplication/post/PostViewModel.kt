@@ -1,6 +1,5 @@
 package com.neelasurya.myapplication.post
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.neelasurya.myapplication.base.BaseViewModel
 import com.neelasurya.myapplication.model.PostDao
@@ -69,9 +68,9 @@ class PostViewModel(private val postDao: PostDao) : BaseViewModel() {
 
 
     fun onAcceptUpdate(results: Results) {
-            results.isAccepted = true
-            compositeDisposable.add(Completable.fromCallable { postDao.updateResult(results) }.observeOn(AndroidSchedulers.mainThread())
-                    .subscribeOn(Schedulers.io()).subscribe())
+        results.isAccepted = true
+        compositeDisposable.add(Completable.fromCallable { postDao.updateResult(results) }.observeOn(AndroidSchedulers.mainThread())
+                .subscribeOn(Schedulers.io()).subscribe())
     }
 
     fun onRejectUpdate(results: Results) = results.apply {
@@ -79,6 +78,7 @@ class PostViewModel(private val postDao: PostDao) : BaseViewModel() {
         compositeDisposable.add(Completable.fromCallable { postDao.updateResult(results) }.observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.io()).subscribe())
     }
+
     override fun onCleared() {
         super.onCleared()
         compositeDisposable.clear()

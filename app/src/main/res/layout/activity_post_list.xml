@@ -4,7 +4,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.neelasurya.myapplication.ui.post.PostListViewModel" />
+            type="com.neelasurya.myapplication.post.PostListViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
