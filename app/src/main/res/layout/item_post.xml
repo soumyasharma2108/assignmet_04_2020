@@ -14,7 +14,7 @@
 
         <variable
             name="callback"
-            type="com.neelasurya.myapplication.ui.post.PostListAdapter" />
+            type="com.neelasurya.myapplication.post.PostListAdapter" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

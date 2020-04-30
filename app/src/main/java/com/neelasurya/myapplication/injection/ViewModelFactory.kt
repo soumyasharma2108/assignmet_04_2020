@@ -11,7 +11,7 @@ import com.neelasurya.myapplication.ui.post.PostListViewModel
 class ViewModelFactory(private val activity: AppCompatActivity): ViewModelProvider.Factory{
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(PostListViewModel::class.java)) {
-            val db = databaseBuilder(activity.applicationContext, AppDatabase::class.java, "posts").allowMainThreadQueries().build()
+            val db = databaseBuilder(activity.applicationContext, AppDatabase::class.java, "posts").build()
             @Suppress("UNCHECKED_CAST")
             return PostListViewModel(db.postDao()) as T
         }
